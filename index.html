@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>This is a list of some fruits available in the market:</p>
+    <ol type="i">
+      <li>Banana</li>
+      <li>Mango</li>
+      <li>Watermelons</li>
+      <li>Apples</li>
+      <li>Pineapples</li>
+    </ol>
+    <img
+      src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600"
+      alt="mango"
+      width="500"
+    />
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kennedy Malone</td>
+          <td>390 10th Street</td>
+          <td>+254 700 000 998</td>
+          <td>kennedy@email.com</td>
+        </tr>
+        <tr>
+          <td>Stanley Kiragu</td>
+          <td>41st Ken Street</td>
+          <td>+254 700 987 998</td>
+          <td>kiragustan@email.com</td>
+        </tr>
+        <tr>
+          <td>Denis Kev</td>
+          <td>90th Liberty Street</td>
+          <td>+254 700 000 000</td>
+          <td>kevden@email.com</td>
+        </tr>
+        <tr>
+          <td>Matilda Muthoni</td>
+          <td>90-01000 Water Street</td>
+          <td>+254 000 050 998</td>
+          <td>muthonim@email.com</td>
+        </tr>
+        <tr>
+          <td>Harlem Samantha</td>
+          <td>Calm 14th Street</td>
+          <td>+254 700 000 073</td>
+          <td>smithharlem@email.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Sign up to our website for more details by filling this form</p>
+    <form>
+      <label for="surname">Surname:</label><br />
+      <input type="text" name="surname" id="surname" required />
+      <br /><br />
+      <label for="first-name">First name:</label><br />
+      <input type="text" name="first-name" id="first-name" required />
+      <br /><br />
+      <label for="email">Email Address:</label><br />
+      <input type="email" name="email" id="email" required />
+      <br /><br />
+      <label for="password">Password:</label><br />
+      <input type="password" name="password" id="password" required />
+      <br /><br />
+      <label for="dateOfBirth">Date of Birth:</label><br />
+      <input type="date" name="dateOfBirth" id="dateOfBirth" required />
+      <br /><br />
+
+      <label for="country-origin">Select your country:</label><br />
+      <select name="country" id="country-origin">
+        <option value="">-- Select Country--</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Rwanda">Rwanda</option>
+      </select>
+      <br /><br />
+
+      <label for="gender">Select your gender:</label><br />
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" name="gender" id="other" value="other" />
+      <label for="other">Other</label>
+      <br /><br />
+
+      <label>Select your favorite fruits:</label><br />
+      <input type="checkbox" name="fruits" id="apple" value="apple" />
+      <label for="apple">Apple</label><br />
+      <input type="checkbox" name="fruits" id="pineapple" value="pineapple" />
+      <label for="pineapple">Pineapple</label><br />
+      <input type="checkbox" name="fruits" id="banana" value="banana" />
+      <label for="banana">Banana</label><br />
+      <input type="checkbox" name="fruits" id="papaya" value="papaya" />
+      <label for="papaya">Papaya</label><br />
+      <input type="checkbox" name="fruits" id="avocado" value="avocado" />
+      <label for="avocado">Avocado</label>
+      <br /><br />
+      <button id="submit-btn" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
